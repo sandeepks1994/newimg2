@@ -1,5 +1,6 @@
 from odoo import api, fields, models, _
-
+import google
+import paramiko
 class XeroLoger(models.Model):
     _name = 'xero.logger'
     _rec_name = 'odoo_name'
